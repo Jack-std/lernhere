@@ -1,0 +1,123 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+
+body {
+	line-height: 1;
+	font-family: "Roboto";
+	background-color: #dddddd68;
+	color: #000;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* ------------------------------ */
+
+.lessons_center {
+	max-width: 500px;
+	margin: 0px 0px 0px 300px;
+}
+.css_down {
+		margin: 0px 0px 50px 0px;
+}
+.lesson_down {
+	margin: 0px 0px 50px 0px;
+}
+
+h2 {
+	font-size: 18px;
+	text-decoration: underline;
+	font-weight: 700;
+}
+.lessons-list {
+	padding: 50px 0px 0px 50px;
+}
+h1 {
+	font-size: 20px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin: 0px 0px 20px 0px;
+}
+
+
+.lessons-list 
+a:visited {
+	color: black;
+}
+
+.lessons-list 
+a:hover {
+	color: darkgray;
+}
+.lessons-list *:not(:last-child) {
+	margin: 0px 0px 10px 0px;
+}
+
+.button {
+	position: fixed;
+	bottom: 20px; 
+	right: 100px;
+	width: 80px;
+	height: 80px;
+	background-color: rgba(0, 0, 255, 0.513);
+	border-radius: 50%;
+}
+
+.button a {
+	font-size: 22px;
+	position: fixed;
+	bottom: 49px;
+	right: 127px;
+}

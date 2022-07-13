@@ -1,0 +1,2068 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Шпаргалочка</title>
+</head>
+<header id="top"></header>
+
+<main>
+
+	<div class="lessons-list  ">
+		<h1>Тут зібрана вся інформація по курсу</h1>
+		<div class="Start-css">
+			<a href="#start-css" class="start-css__item">Стартовий шаблон CSS</a>
+		</div>
+		<div class="lesson1">
+			<a href="#lesson1" class="lesson1__item">Lesson 1 - основні HTML теги</a>
+		</div>
+		<div class="lesson2">
+			<a href="#lesson2">Lesson 2 CSS почтаток - звертаємось до HTML</a>
+		</div>
+		<div class="lesson3">
+			<a href="#lesson3">Lesson 3 - Текст та шрифти CSS</a>
+		</div>
+		<div class="lesson4">
+			<a href="#lesson4">Lesson 4 - Отступы</a>
+		</div>
+		<div class="lesson5">
+			<a href="#lesson5">Lesson 5 - border/outline/opacity/visibility</a>
+		</div>
+		<div class="lesson6">
+			<a href="#lesson6">Lesson 6 - Background</a>
+		</div>
+		<div class="lesson7">
+			<a href="#lesson7">Lesson 7 - Псевдоклас/єлемент</a>
+		</div>
+		<div class="lesson8">
+			<a href="#lesson8">Lesson 8 - методологія БЕМ</a>
+		</div>
+		<div class="lesson9">
+			<a href="#lesson9">Lesson 9 - Позиціонування</a>
+		</div>
+		<div class="lesson10">
+			<a href="#lesson10">Lesson 10 - Transform</a>
+		</div>
+		<div class="lesson11">
+			<a href="#lesson11">Lesson 11 - Transitions - Переходи</a>
+		</div>
+		<div class="lesson12">
+			<a href="#lesson12">Lesson 12 - Flex</a>
+		</div>
+	</div>
+	<div class="button">
+		<a href="#top">Up</a>
+	</div>
+
+	<div class="lessons lessons_center" id="start-css">
+		<div class="css css_down">
+			<h2>Стартовий шаблон CSS</h2>
+			<textarea name="" id="" cols="100" rows="62">
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+li {
+list-style: none;
+}
+
+a,
+a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-weight: inherit;
+font-size: inherit;
+}
+
+img {
+vertical-align: top;
+}
+
+html,
+body {
+height: 100%;
+}
+
+html {
+font-size: 16px;
+/* по умолчанию */
+}
+
+body {
+line-height: 1;
+font-family: "Roboto";
+background-color: #dddddd68;
+color: #000;
+}
+
+.wrapper {
+min-height: 100%;
+overflow: hidden;
+}
+
+/* ------------------------------ */
+			</textarea>
+		</div>
+		<div class="lesson lesson_down" id="lesson1">
+			<h2>Lesson 1 - основні HTML теги</h2>
+			<textarea name="" id="" cols="100" rows="60">
+
+Анатомия тега с закрывающим элементом
+<имя_тега атрибут="значение атрибута"> - открывающий элемент содержимое тега
+</имя_тега> - закрывающий элемент
+
+
+<div id="id-name" class="class-name" title="Всплывающий текст">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam mollitia, cum, distinctio nihil autem blanditiis quis vitae eligendi iure quae aliquid, neque exercitationem architecto doloremque sapiente ex at aut porro!
+</div>
+
+Теги строительные (блочные)
+<div></div>
+<header></header>
+<main></main>
+<footer></footer>
+<nav></nav>
+.....................................
+Теги для контента
+		
+Заголовки (блочный)
+<h1>Главный заголовок</h1>
+<h2>Не самый главный заголовок</h2>
+<h3>Заголовок меньше</h3>
+<h4>Заголовок еще меньше</h4>
+<h5>Заголовок еще еще меньше</h5>
+<h6>Заголовок еще еще еще меньше</h6>
+.....................................
+Маркированный список (блочный)
+<ul>
+	<li></li>
+</ul>
+.....................................
+ Нумерованный список (блочный)
+<ol>
+	<li></li>
+</ol>
+.....................................
+
+Изображение (блочно-строчный)
+<img src="" alt="">
+.....................................
+
+Выделение текста (строчный)
+<span></span>
+<mark></mark>
+.....................................
+
+Перевод строки
+<br>
+
+.....................................
+
+Ссылка (строчный)
+<a target="_blank" href="https://google.com">Google</a>
+
+</textarea>
+		</div>
+		<div class="button2"></div>
+		<div class="lesson lesson_down" id="lesson2">
+			<h2>Lesson 2 CSS почтаток - звертаємось до HTML </h2>
+			<p>CSS</p>
+			<textarea name="" id="" cols="100" rows="220">
+Анатомия
+
+селектор{
+css параметр;
+css параметр;
+...
+css параметр;
+}
+*/
+/* CSS параметр */
+/*
+css свойство: значение(я) свойства;
+*/
+
+/* Селекторы */
+
+/* Селектор тега */
+/*
+имя тега{
+css параметр;
+css параметр;
+...
+css параметр;
+}
+*/
+/* Пример селектора тега */
+p {
+/* Обратились ко ВСЕМ тегам P на странице */
+color: red;
+}
+span {
+/* Обратились ко ВСЕМ тегам SPAN на странице */
+/* color: green; */
+}
+
+/* Селектор класса, начинается с ТОЧКИ */
+/*
+.имя класса {
+css параметр;
+css параметр;
+...
+css параметр;
+}
+*/
+.text {
+/* Обратились ко объектам с классом text на странице */
+/* color: green; */
+}
+.paragraph {
+/* Обратились ко объектам с классом paragraph на странице */
+/* color: red; */
+}
+
+/* Селектор ID */
+/*
+#имя id{
+css параметр;
+css параметр;
+...
+css параметр;
+}
+*/
+#menu {
+/* color: red; */
+}
+
+/* Приоритет */
+
+/* 1. Порядок записи, при равнозначных селекторах */
+
+p {
+/* Обратились ко ВСЕМ тегам P на странице */
+/* color: red; */
+}
+
+/* Этот приоритетней */
+p {
+/* Обратились ко ВСЕМ тегам P на странице */
+/* color: yellowgreen; */
+}
+
+.text {
+/* Обратились ко объектам с классом text на странице */
+/* color: green; */
+}
+/* Этот приоритетней */
+.paragraph {
+/* Обратились ко объектам с классом paragraph на странице */
+/* color: red; */
+}
+
+/* УТОЧНЕНИЕ */
+
+/* 2. Селектор класса приоритетней чем селектор тега */
+
+.text {
+/* Обратились ко объектам с классом text на странице */
+/* color: green; */
+}
+p {
+/* Обратились ко ВСЕМ тегам P на странице */
+/* color: red; */
+}
+
+/* Селектор ID - самый приоритетный */
+
+#main-text {
+/* Обратились объекту c ID main-text на странице */
+/* color: blue; */
+}
+.text {
+/* Обратились ко объектам с классом text на странице */
+/* color: green; */
+}
+p {
+/* Обратились ко ВСЕМ тегам P на странице */
+/* color: red; */
+}
+
+/* 3. Уточняем обращением */
+
+/* Комбинация селекторов */
+
+span.text.blue-text {
+/* Обратились ко тегам SPAN с классами и text и blue-text на странице */
+/* color: red; */
+}
+.text {
+/* Обратились ко объектам с классом text на странице */
+/* color: green; */
+}
+
+span.blue-text {
+/* Обратились ко тегам SPAN с классом blue-text на странице */
+/* color: blue; */
+}
+
+/* Вложенность и приоритетность */
+
+/* Приоритеность №1 */
+
+div p {
+/* color: blue; */
+}
+
+.content .content__item {
+/* Обратились ко объектам с классом .content__item но только к тем
+которые находятся внутри любых объектов с классом .content на странице
+*/
+/* color: yellowgreen; */
+}
+
+.content__item {
+/* Обратились ко объектам с классом .content__item */
+/* color: violet; */
+}
+
+/* Инлайновый стиль будет имет самый большой приоритет */
+
+/* Прочие селекторы */
+
+/* * - Обращение ко ВСЕМ объектам */
+/*
+* {
+color: green;
+}
+*/
+
+/* Обращаемся к нескольким объектам */
+
+.content p,
+.content span {
+/* Обратились ко всем тегам P но только к тем
+которые находятся внутри любых объектов с классом .content на странице.
+И ко всем тегам SPAN но только к тем
+которые находятся внутри любых объектов с классом .content на странице.*/
+/* color: red; */
+}
+
+.content .content__item,
+.content .content__text {
+/* Обратились ко всем объектам с классом content__item но только к тем
+которые находятся внутри любых объектов с классом .content на странице.
+И ко всем объектам с классом content__text но только к тем
+которые находятся внутри любых объектов с классом .content на странице.*/
+/* color: red; */
+}
+
+.content__item,
+.content__text,
+footer {
+/* color: yellowgreen; */
+}
+
+/* Только первый уровень вложенности */
+
+.content span {
+/* Обратились ко всем тегам SPAN но только к тем
+которые находятся внутри любых объектов с классом .content на странице. */
+/* color: red; */
+}
+.content > span {
+/* Обратились ко всем тегам SPAN ПЕРВОГО УРОВНЯ но только к тем
+которые находятся внутри любых объектов с классом .content на странице. */
+/* color: red; */
+}
+
+/* Обращаемся только к первому следующему объекту того же уровня */
+
+.content__item + * {
+/* color: yellowgreen; */
+}
+
+/* Обращаемся ко всем следующим объектам того же уровня */
+
+.content__item ~ span {
+/* color: yellowgreen; */
+}
+			</textarea>
+		</div>
+		<div class="lesson lesson_down" id="lesson3">
+			<h2>Lesson 3 - Текст та шрифти CSS</h2>
+			<textarea name="" id="" cols="100" rows="190">
+				/* Берем шрифты с собой!!! */
+
+/* Два варианта подключения семейств шрифта */
+
+/* (1) Удаленное подключение. Подключение из внешнего источника (по ссылке) */
+/* (2) Локальное подключение. Подключение локальных файлов */
+
+/* --------------- */
+
+/* Свойства шрифта */
+
+/* font-family: "Имя шрифта", "Имя шрифта", ..., тип шрифта */
+/*
+Устанавливает семейство шрифта
+Типы шрифта:
+serif — шрифты с засечками (антиквенные), типа Times;
+sans-serif — рубленные шрифты (шрифты без засечек или гротески), типичный представитель — Arial;
+cursive — курсивные шрифты;
+fantasy — декоративные шрифты;
+monospace — моноширинные шрифты, ширина каждого символа в таком семействе одинакова (шрифт Courier).
+*/
+.text {
+	font-family: "Poppins", sans-serif;
+}
+
+/*
+font-size: размер [px,%,em,rem]
+Определяет размер шрифта элемента.
+*/
+h1 {
+	font-size: 50px;
+}
+.text {
+	font-size: 20px;
+}
+
+/*
+font-style:
+Определяет начертание шрифта — обычное, курсивное или наклонное.
+normal - Обычное начертание текста.
+italic - Курсивное начертание. 
+oblique - Наклонное начертание. Курсив и наклонный шрифт при всей их похожести не одно и то же. Курсив это специальный шрифт имитирующий рукописный, наклонный же образуется путем наклона обычных знаков вправо. 
+*/
+
+.text {
+	/* font-style: italic; */
+}
+
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - lite
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+
+.text {
+	/* font-weight: 700; */
+}
+
+/* Свойства текста */
+
+/*
+color
+Определяет цвет текста. Для задания цветов обычно используются 
+числа в шестнадцатеричном коде, 
+либо с помощью RGB.
+*/
+
+.text {
+	/* color: rgb(162, 166, 176); */
+	/* color: #a2a6b0; */
+}
+
+/*
+text-align
+Определяет горизонтальное выравнивание текста и строчных объектов в пределах элемента. 
+center - Выравнивание текста по центру.
+justify - Выравнивание по ширине, что означает одновременное выравнивание по левому и правому краю. Чтобы произвести это действие браузер в этом случае добавляет пробелы между словами.
+left - Выравнивание текста по левому краю. 
+right - Выравнивание текста по правому краю.
+*/
+
+.text {
+	/* text-align: center; */
+}
+.image {
+}
+
+/*
+text-decoration
+Добавляет оформление текста в виде его подчеркивания, перечеркивания, линии над текстом и мигания. 
+Одновременно можно применить более одного стиля, перечисляя значения через пробел. Это свойство наследуется и может принимать значения:
+line-through - Создает перечеркнутый текст.
+overline - Линия проходит над текстом.
+underline - Устанавливает подчеркнутый текст. 
+none - Отменяет все эффекты, в том числе и подчеркивания у ссылок, которое задано по умолчанию.
+*/
+
+.text {
+	text-decoration: none;
+}
+.text span {
+	text-decoration: line-through;
+}
+
+/*
+text-shadow: горизонтальное_смещение вертикальное_смещение размер цвет;
+Добавляет тень к тексту.
+Прмер text-shadow: 1px 1px 1px #000;
+*/
+
+.text {
+	/* text-shadow: 1px 1px 1px #000; */
+	/* text-shadow: -5px -5px 1px #000; */
+}
+
+/*
+text-transform
+Управляет преобразованием текста в заглавные или прописные символы.
+capitalize  - Первый символ каждого слова в предложении будет заглавным. Остальные символы свой вид не меняют.
+lowercase - Все символы текста становятся строчными (нижний регистр). 
+uppercase - Все символы текста становятся прописными (верхний регистр).
+none - Не меняет регистр символов.
+*/
+.text {
+	text-transform: none;
+}
+
+/*
+line-height
+Устанавливает межстрочный интервал текста. Широко применяется при верстке текста.
+*/
+
+.text {
+	line-height: 150%;
+}
+
+/*
+letter-spacing
+Определяет интервал между символами (буквами). Используется когда нужно разрядить текст.
+*/
+.text {
+	letter-spacing: 1px;
+}
+
+/*
+word-spacing
+Определяет интервал между словами. Используется когда нужно разрядить текст.
+*/
+.text {
+	word-spacing: 10px;
+}
+
+/*
+text-indent
+Устанавливает величину отступа первой строки блока текста. 
+При меняется, если нам нужно создать что-то типа красной строки.
+*/
+
+.text {
+	text-indent: 50px;
+}
+
+/*
+white-space
+Управляет свойствами пробелов между словами. Пименяется в основном со значением 
+nowrap которое запрещает перенос строки. 
+Таким образом весь текст отображается в одну строку и не ломается. 
+Значение normal вернет все как было.
+*/
+
+.text {
+	/* white-space: nowrap; */
+}
+			</textarea>
+		</div>
+		<div class="lesson lesson_down" id="lesson4">
+			<h2>Lesson 4 - Отступы </h2>
+			<textarea name="" id="" cols="100" rows="205">
+			/* ------------------------------ */
+/* Отступы */
+/* По другому работают для строчного объекта*/
+
+/* Внутренние */
+/*
+padding
+Внутренний отступ элемента
+При указании поля в процентах, значение считается 
+от ширины родителя элемента.
+Свойство не наследуется.
+
+padding: со_всех_сторон;
+padding: сверху справа снизу слева;
+padding: сверху_снизу справа_слева;
+padding: сверху справа_слева снизу;
+
+*/
+
+/* Внешние */
+/*
+margin
+Внешний отступ элемента
+При указании поля в процентах, значение 
+считается от ширины родителя элемента.
+Свойство не наследуется.
+Значение может быть как положительным, 
+так и отрицательным числом.
+
+margin: со_всех_сторон;
+margin: сверху справа снизу слева;
+margin: сверху_снизу справа_слева;
+margin: сверху справа_слева снизу;
+*/
+
+.block {
+	background-color: green;
+
+	color: #fff;
+	font-size: 30px;
+	margin: 50px;
+	padding: 30px;
+}
+.inline {
+	background-color: #794f45;
+	color: #fff;
+	font-size: 30px;
+	width: 500px;
+	padding: 50px;
+	margin: 50px;
+}
+
+.image {
+	width: 50%;
+	padding: 50px;
+	background-color: #000;
+}
+
+/*
+.block_2 {
+	background-color: #77608d;
+
+	color: #fff;
+	font-size: 50px;
+	padding: 50px;
+}
+.block_3 {
+	background-color: #794f45;
+	padding: 50px;
+
+	color: #fff;
+	font-size: 50px;
+	padding: 50px;
+}
+*/
+/* НЕ работают для строчного объекта*/
+/*
+width
+Устанавливает ширину блочных тегов и блочно-строчных
+Свойство не наследуется.
+width:100px;
+width:10%;
+*/
+
+.block {
+	/* width: 500px; */
+}
+
+/*
+box-sizing
+Применяется для изменения алгоритма расчета ширины 
+и высоты элемента. 
+Свойство наследуется.
+content-box - Основывается на стандартах CSS, при этом 
+свойства width и height задают ширину и высоту контента
+ и не включают в себя значения отступов, полей и границ.
+border-box - Свойства width и height включают в себя 
+значения полей и границ, но не отступов (margin). Эта модель используется браузером Internet Exporer в режиме несовместимости.
+padding-box - Свойства width и height включают в себя
+ значения полей, но не отступов (margin) и границ (border). 
+
+*/
+
+/*
+ Центрирование объекта с помощью  margin со значениями auto:last-child
+ 1) Объект должен быть блочным
+ 2) Объект должен быть ограничен по ширине, быть уже чем родитель
+ 3) margin: 0px auto;
+*/
+
+.block {
+	/* margin: 0px auto; */
+}
+
+/*
+max-width
+Устанавливает максимальную ширину блочных 
+и блочно-строчных тегов
+
+min-width
+Устанавливает минимальную ширину блочных 
+и блочно-строчных тегов
+*/
+
+.block {
+	/*
+	max-width: 700px;
+	margin: 0px auto;
+	*/
+}
+
+/*
+height:
+Устанавливает высоту блочных и блочно-строчных тегов
+Свойство не наследуется.
+height:100px;
+height:10%;
+
+min-height
+Свойство не наследуется.
+
+max-height
+Свойство не наследуется.
+*/
+
+.block {
+	/* height: 500px; */
+}
+
+/*
+overflow 
+Управляет отображением содержания блочного элемента
+visible - Отображается все содержание элемента, даже за пределами установленной высоты и ширины. 
+hidden - Отображается только область внутри элемента, остальное будет скрыто.
+scroll - Всегда добавляются полосы прокрутки.
+auto - Полосы прокрутки добавляются только при необходимости.
+*/
+
+.block {
+	/* overflow: hidden; */
+}
+
+/*
+display:
+Многоцелевое свойство, которое определяет, как элемент должен быть показан в документе.
+Свойство не наследуется.
+
+block - Элемент показывается как блочный. Применение этого значения для встроенных элементов, например тега <span>, заставляет его вести подобно блокам — происходит перенос строк в начале и в конце содержимого. 											
+inline - Элемент отображается как встроенный. Использование блочных тегов, таких как <div> и <p>, автоматически создает перенос и показывает содержимое этих тегов с новой строки. Значение inline отменяет эту особенность, поэтому содержимое блочных элементов начинается с того места, где окончился предыдущий элемент. 											
+inline - block - Это значение генерирует блочный элемент, который обтекается другими элементами веб-страницы подобно встроенному элементу. Фактически такой элемент по своему действию похож на встраиваемые элементы (вроде тега <img>). При этом его внутренняя часть форматируется как блочный элемент, а сам элемент — как встроенный. 											
+none - Временно удаляет элемент из документа. Занимаемое им место не резервируется и веб-страница формируется так, словно элемента и не было. 
+*/
+
+.link {
+	font-size: 80px;
+	color: red;
+	margin: 0px 0px 100px 0px;
+	/* По умолчанию */
+	display: inline;
+}
+
+.header {
+	/* По умолчанию */
+	display: block;
+}
+.image {
+	/* По умолчанию */
+	display: inline-block;
+}
+.text {
+	/* display: none; */
+	font-size: 50px;
+}
+		</textarea>
+		</div>
+		<div class="lesson lesson_down" id="lesson5">
+			<h2>Lesson 5 - border/outline/opacity/visibility</h2>
+			<textarea name="" id="" cols="100" rows="50">
+
+border
+Универсальное свойство border позволяет одновременно 
+установить толщину, 
+стиль и цвет границы вокруг элемента.
+border: 1px solid #000; (размер стиль цвет)
+Основные стили -solid dotted dashed double
+
+Синтаксис общего свойства:
+border: толщина_линии стиль_линии цвет_линии
+
+
+outline
+Универсальное свойство, одновременно устанавливающее цвет, 
+стиль и толщину внешней границы на всех четырех сторонах элемента. 
+В отличие от линии, задаваемой через border, свойство outline 
+не влияет на положение блока и его ширину. 
+Также нельзя задать параметры линии на отдельных сторонах элемента, 
+outline применяется сразу ко всем четырём сторонам.
+
+border-radius
+Устанавливает радиус скругления уголков блока.
+border-radius:50%; - кргуг
+Можно использовать вместе с overflow: hidden;
+
+box-shadow
+Добавляет тень к элементу.
+box-shadow: сдвиг_по_гориз сдвиг_по_верт радиус расстояние
+Флаг inset для установки внутренней тени
+Можно добавить много теней. На тень влияет свойство border-radius.
+filter: drop-shadow(0px 0px 10px #77608d);
+
+opacity
+Определяет уровень прозрачности элемента.
+Отличие opacity:0; от display:none; в том что блок 
+не убирается из верстки а только становиться прозрачным, 
+то есть занимаемое им место остается. Так же, 
+с прозрачными элементами все еще можно взаимодействовать, 
+например кликать по ссылкам.
+
+visibility
+Предназначен для отображения или скрытия элемента.
+Отличие visibility: hidden; от display:none; в том что блок 
+не убирается из верстки а только скрывается, 
+то есть занимаемое им место остается.
+Отличие visibility: hidden; от opacity:0;
+в том что блок скрывается и взаимодействовать с ним нельзя.
+
+			</textarea>
+		</div>
+		<div class="lesson lesson_down" id="lesson6">
+			<h2>Lesson 6 - Background</h2>
+			<textarea name="" id="" cols="100" rows="35">
+/* Определяет цвет фона элемента */
+/* background-color: green;
+
+/* Устанавливает фоновое изображение
+для элемента либо задает градиентную заливку */
+/* background-image: url("../img/01.png"); */
+/* background-image: linear-gradient(to bottom, rgba(236, 232, 157, 1) 0%, rgba(94, 83, 115, 1) 50%, rgba(24, 181, 164,
+1) 100%); */
+
+/* Определяет, как будет повторяться фоновое изображение */
+/* background-repeat: no-repeat; */
+
+/* Задает начальное положение фонового изображения, где первое значение
+(проценты, px, слово) определяет расположение
+по горизонтали, второе - вертикали. */
+/* background-position: 0 0; */
+
+/* Масштабирует фоновое изображение согласно заданным размерам.
+В цифрах, где первое значение (проценты, px) определяет ширину,
+второе - высоту. Либо специальным значением. */
+/* background-size: auto auto; */
+
+/* Устанавливает, будет ли прокручиваться фоновое изображение вместе с содержимым элемента. */
+/* background-attachment: scroll; */
+
+/* Универсальное свойство */
+/* background: green url("../img/01.png") 50% / cover no-repeat fixed; */
+
+/* background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%), url("../img/image_1.jpg") 0 0
+/ 100px no-repeat, green url("../img/01.png") 50% / cover no-repeat; */
+			</textarea>
+			<div class="bachgroung-link">
+				<a href="https://fls.guru/cssbackground.html" target="_blank">Шпаргалка по Background</a>
+			</div>
+		</div>
+		<div class="lesson lesson_down" id="lesson7">
+			<h2>Lesson 7 - Псевдоклас/єлемент </h2>
+
+			<textarea name="" id="" cols="100" rows="225">
+			/*
+Обращение к дочернему элементу, 
+при состоянии ("при наведении") родителя 
+*/
+/*
+.block:hover .link {
+
+}
+*/
+.link {
+	color: yellow;
+}
+
+/* Псевдоклассы */
+/* Псевдоклассы состояния */
+
+/* Срабатывает для посещенных ссылок */
+.link:visited {
+	color: yellowgreen;
+}
+/*
+Замечание: Из-за причин приватности, 
+браузеры строго ограничивают стили, которые вы 
+можете применить к элементу, используя этот псевдо-класс:
+только color, background-color, border-color,
+border-bottom-color, border-left-color, border-right-color,
+border-top-color, outline-color, column-rule-color, 
+fill и stroke. Заметьте также, что альфа-канал будет 
+игнорироваться: будет использоваться альфа-канал, 
+используемый для непосещённых ссылок вместо него 
+(но если прозрачность - 0, то в этот случае 
+игнорируется весь цвет, и один из используемых 
+стилей для непосещённых ссылок).
+*/
+
+/* 
+:hover
+Срабатывает при наведении на элемент, 
+часто применяется применяется как для ссылок так
+и для любого другого элемента.
+*/
+.link:hover {
+	color: red;
+}
+
+/*
+:focus
+Срабатывает при получении элементом фокуса. 
+Часто применяется к елементам форм. Например инпутам.
+*/
+.link:focus {
+	color: blue;
+	outline: none;
+}
+
+/*
+:active
+Срабатывает при нажатии на элемент. 
+В основном применяется к ссылкам и кнопкам.
+*/
+.link:active {
+	color: #000;
+}
+/*
+.button {
+	border-radius: 5px;
+	padding: 20px 30px;
+	color: #fff;
+	background-color: yellowgreen;
+	box-shadow: 0px 8px 0px rgb(55, 73, 18);
+	position: relative;
+	top: 0;
+}
+.button:hover {
+	background-color: rgb(172, 228, 61);
+}
+.button:active {
+	top: 4px;
+	box-shadow: 0px 4px 0px rgb(55, 73, 18);
+}
+*/
+
+/*
+:target
+Срабатывает когда элемент является объектом 
+на который ссылаются
+*/
+
+.window {
+	padding: 20px;
+	color: #fff;
+	display: none;
+	background-color: #77608d;
+}
+.window:target {
+	display: block;
+}
+
+/* Псевдоклассы положения в коде */
+
+.text {
+	margin: 0px 0px 50px 0px;
+}
+.text p {
+	/* margin: 0px 0px 20px 0px; */
+}
+.list {
+}
+.list li {
+	margin: 0px 0px 20px 0px;
+}
+
+/*
+:first-child
+Обращение к первому элементу в блоке
+*/
+/*
+.text p:first-child {
+	color: red;
+}
+*/
+/* Первый в блоке тег P, даже если выше 
+него есть другие теги */
+/*
+.text p:first-of-type {
+	color: red;
+}
+*/
+
+/* Любой оъект который первый внутри родителя */
+/*
+.text *:first-child {
+	color: red;
+}
+*/
+
+/*
+:last-child
+Обращение к последнему элементу в блоке
+*/
+/*
+.text p:last-child {
+	color: red;
+}
+*/
+/* Последний в блоке тег P, 
+если ниже него ничего нет  */
+/*
+.text p:last-of-type {
+ color: red;
+}
+*/
+/* Убираем лишний отступ. Вариант №1 */
+/*
+.text *:last-child {
+	margin-bottom: 0;
+}
+*/
+/*
+:nth-child(порядковый номер элемента)
+Обращение к конкретным элементам в блоке
+*/
+
+/* odd - нечетные */
+/* even - четные */
+.text p:nth-child(odd) {
+	color: red;
+}
+
+.text p:nth-child(2):hover {
+	color: green;
+}
+
+/* Убираем лишний отступ. Вариант №2 
+ для любых объектов внутри объектов с классом .text
+ добавить внешний отступ 20px вниз, 
+ но кроме последнего объекта
+*/
+.text *:not(:last-child) {
+	margin: 0px 0px 20px 0px;
+}
+
+/*===============================================*/
+/*
+Псевдоэлемент ::first-line задает стиль первой 
+строки форматированного текста. 
+Длина этой строки зависит от многих факторов, 
+таких как используемый шрифт, 
+размер окна браузера, ширина блока, языка и т.д. 
+В правилах стиля допустимо 
+использовать только свойства, относящиеся к шрифту, 
+изменению цвета текста и фона.
+*/
+.content {
+	margin: 0px 0px 30px 0px;
+}
+.content::first-line {
+	/* color: red; */
+}
+
+/*
+Псевдоэлемент ::first-letter определяет стиль первого
+ символа в тексте элемента, 
+к которому добавляется. 
+К этому псевдоэлементу могут применяться только
+ стилевые свойства, 
+связанные со свойствами шрифта, полями, отступами,
+ границами, цветом и фоном.
+*/
+/*
+.content {
+	text-indent: 30px;
+}
+.content::first-letter {
+	color: red;
+	font-size: 80px;
+}
+*/
+
+/*
+::before, ::after - СТРОЧНЫЕ !!!!
+использование content ОБЯЗАТЕЛЬНО! 
+
+*/
+		</textarea>
+		</div>
+		<div class="lesson lesson_down" id="lesson8">
+			<h2>Lesson 8 - методологія БЕМ </h2>
+			<textarea name="" id="" cols="100" rows="420">
+<!-- Б.Э.М. -->
+
+<!-- Блок -->
+
+НЕЗАВИСИМЫЙ объект.
+НЕ влияет на окружение (внешние объекты).
+
+1) Имя должно соответствовать 
+содержанию либо конструкции
+Отвечать на вопрос "Что это?"
+2) Английский язык (Латиница)
+3) Нижний регистр
+4) Если слов несколько, разделяем дефисом (-).
+5) НИКАКОЙ ИЕРАРХИИ!!!
+
+Мы можем вкладывать 
+сколько угодно БЭМ блоков друг в друга,
+также БЭМ блоки можно вкладывать в БЭМ элементы
+
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem molestiae ullam culpa sunt, voluptatum autem
+	facilis nihil neque cumque soluta amet est minima non voluptas error totam quas, illum magni.
+</p>
+<div class="block">
+	<div class="who-we-are">
+		Я типа БЭМ блок 8)
+		<!-- НЕ верно (попытка иерархии) -->
+		<div class="who-we-are-text">
+			<!-- Верно -->
+			<div class="some-block"></div>
+		</div>
+	</div>
+</div>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem molestiae ullam culpa sunt, voluptatum autem
+	facilis nihil neque cumque soluta amet est minima non voluptas error totam quas, illum magni.
+</p>
+<div class="who-we-are">
+	Я типа БЭМ блок 8)
+</div>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem molestiae ullam culpa sunt, voluptatum autem
+	facilis nihil neque cumque soluta amet est minima non voluptas error totam quas, illum magni.
+</p>
+
+<!-- Элемент -->
+
+<!-- 
+					ЗАВИСИМЫЙ объект от своего БЭМ блока
+					ВСЕГДА находится внутри своего БЭМ блока
+					МОЖЕТ влиять на окружение (внешние объекты)
+
+					Имя класса БЭМ элемента:
+					0) Всегда начинается с имени 
+					первого родительского БЭМ блока и отделяется 
+						двумя нижними подчеркиваниями (__)
+					1) Имя должно соответствовать 
+						содержанию либо конструкции.
+						Отвечать на вопрос "Что это?"
+					2) Английский язык (Латиница)
+					3) Нижний регистр
+					4) Если слов несколько, разделяем дефисом (-).
+					5) НИКАКОЙ ИЕРАРХИИ!!!
+
+					БЭМ элементы можно вкладивать в другие 
+					БЭМ элементы своего БЭМ блока
+				 -->
+
+<!-- Пример -->
+<!-- Это БЭМ блок -->
+<div class="who-we-are">
+	<!-- Это БЭМ элемент -->
+	<h1 class="who-we-are__title">Я заголовок</h1>
+	<!-- Это БЭМ элемент -->
+	<p class="who-we-are__text">
+		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae mollitia eveniet, laborum perspiciatis beatae
+		distinctio laudantium quos corrupti veniam laboriosam ex deleniti rem, excepturi molestias magni? Eligendi accusamus
+		fugiat aliquid!
+
+		<!-- БЭМ элемент (верно) -->
+		<a href="" class="who-we-are__link"></a>
+
+		<!-- БЭМ элемент (НЕ верно) -->
+		<a href="" class="who-we-are__text__link"></a>
+		<!-- БЭМ элемент (НЕ верно) -->
+		<a href="" class="who-we-are-text__link"></a>
+		<!-- БЭМ элемент (НЕ верно) -->
+		<!-- ПОПЫТКА ИЕРАРХИИ!!!! -->
+		<a href="" class="who-we-are__text-link"></a>
+
+		<!-- Это БЭМ блок -->
+		<a href="" class="link">Я ссылка</a>
+	</p>
+</div>
+
+<!-- Пример -->
+<div class="contacts">
+	<h2 class="contacts__title"></h2>
+	<div class="contacts__text"></div>
+	<div class="about">
+		<!-- БЭМ элемент (верно) -->
+		<p class="about__text"></p>
+
+		<!-- БЭМ элемент (не верно) -->
+		<p class="contacts__text"></p>
+	</div>
+</div>
+
+<!-- Пример -->
+<!-- БЭМ блок -->
+<div class="promice">
+	<div class="promice__title"></div>
+	<div class="promice__sub-title"></div>
+	<div class="promice__items">
+		<div class="item">
+			<div class="item__icon"></div>
+			<div class="item__body">
+				<div class="item__label"></div>
+				<div class="item__text"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="promice">
+	<div class="promice__title"></div>
+	<div class="promice__sub-title"></div>
+	<div class="promice__items">
+		<div class="promice__item">
+			<div class="promice__icon"></div>
+			<div class="promice__body">
+				<div class="promice__label"></div>
+				<div class="promice__text"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Модификатор -->
+
+<!-- 
+					Позволяет вносить отличия 
+					для БЭМ блока либо БЭМ элемента
+
+					Имя класса БЭМ элемента:
+					0) Добавляется как еще один класс
+					для БЭМ блока или БЭМ элемента.
+					Начинается с полного имени БЭМ блока или БЭМ элемента и отделяется 
+						одним нижними подчеркиванием (_)
+					1) Имя должно соответствовать 
+						вносимым модификациям. Отвечать на вопрос "какой? что изменяем?"
+					2) Английский язык (Латиница)
+					3) Нижний регистр
+					4) Если слов несколько, разделяем дефисом (-).
+					5) НИКАКОЙ ИЕРАРХИИ!!!
+				 -->
+
+<div class="who-we-are">
+	Вот он я - who-we-are
+	<div class="who-we-are__title">
+		Я заголовок
+	</div>
+	<div class="who-we-are__text">
+		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias doloribus, officia incidunt architecto aut magnam
+		repellendus similique veniam amet suscipit ratione blanditiis praesentium! Hic autem consequuntur, ducimus voluptate
+		eaque ab.
+	</div>
+</div>
+<div class="who-we-are who-we-are_pupple">
+	Вот он я - who-we-are (но не совсем)
+	<!-- Верно -->
+	<div class="who-we-are__title who-we-are__title_margin-font">
+		Я заголовок (но не совсем такой же)
+	</div>
+	<!-- НЕ верно -->
+	<div class="who-we-are__title who-we-are__margin-font">
+		Я заголовок (но не совсем такой же)
+	</div>
+	<div class="who-we-are__text">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laboriosam autem quod atque facilis, reprehenderit
+		magni id, adipisci a repellendus sit quisquam accusamus harum nihil quo voluptas soluta repudiandae minus.
+	</div>
+</div>
+
+
+<!-- Микс -->
+
+<!-- 
+					Смесь БЭМ блока и БЭМ элемента 
+					для одного объекта.
+					При этом БЭМ элемент может
+					выступать в роли БЭМ модификатора
+				 -->
+
+<div class="who-we-are">
+	Я типа БЭМ блок 8)
+</div>
+
+<div class="main-page">
+	<!-- Одновременно и БЭМ блок и БЭМ элемент -->
+	<div class="who-we-are main-page__who-we-are">
+		Я типа БЭМ блок 8) Я еще и элемент main-page
+	</div>
+</div>
+
+<div class="contacts">
+	<div class="who-we-are contacts__who-we-are">
+		Я типа БЭМ блок 8) Я еще и элемент main-page
+	</div>
+</div>
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, sapiente adipisci, doloremque mollitia quidem ipsum
+doloribus optio explicabo obcaecati ab vitae. Excepturi debitis minus facere alias amet iusto quibusdam illum?
+
+
+<div class="who-we-are">
+	<div class="who-we-are__header header-item">
+		<div class="header-item__title"></div>
+		<div class="header-item__sub-title"></div>
+	</div>
+</div>
+
+
+<div class="promice">
+	<div class="promice__header header-item">
+		<div class="header-item__title"></div>
+		<div class="header-item__sub-title"></div>
+	</div>
+	<div class="promice__icon"></div>
+	<div class="promice__items">
+		<!-- НЕ верно (попытка иерархии) -->
+		<div class="promice__item promice-item">
+
+		</div>
+		<!-- верно -->
+		<div class="promice__item item-promice">
+			<div class="item-promice__icon"></div>
+			<div class="item-promice__body">
+				<div class="item-promice__title"></div>
+				<div class="item-promice__text"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- Верно не верно -->
+<div class="some-block">
+	<!-- НЕ верно (попытка иерархии) -->
+	<a href="" class="some-block-link"></a>
+</div>
+
+<!-- ------------ -->
+
+<div class="some-block">
+	<div class="some-block__title">
+		<!-- Верно -->
+		<a href="" class="link"></a>
+	</div>
+</div>
+
+<!-- ------------ -->
+
+<div class="some-block">
+	<div class="some-block__title"></div>
+	<div class="some-block__text">
+		<div class="item">
+			<!-- НЕ верно, элемент НЕ своего блока -->
+			<a href="" class="some-block__link"></a>
+		</div>
+		<div class="item">
+			<!-- верно -->
+			<a href="" class="item__link"></a>
+		</div>
+	</div>
+</div>
+
+<!-- ------------ -->
+
+<div class="some-block">
+	<div class="some-block__title"></div>
+	<a href="" class="link"></a>
+</div>
+<!-- НЕ верно, элемент НЕ своего блока -->
+<div class="some-block__text"></div>
+
+<!-- ------------ -->
+
+<div class="some-block">
+	<!-- верно, это микс' -->
+	<a href="" class="some-block__link link"></a>
+</div>
+
+<!-- ------------ -->
+
+<!-- верно -->
+<div class="some-block">
+	<div class="some-block__items">
+		<div class="some-block__item item-some-block">
+			<div class="item-some-block__title"></div>
+			<div class="item-some-block__text"></div>
+			<div class="block-items">
+				<div class="block-items__title"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ------------ -->
+
+<div class="some-block">
+	<div class="some-block__text"></div>
+	<!-- НЕ верно (попытка иерархии) -->
+	<div class="some-block__body some-block-body">
+		<div class="some-block-body__title"></div>
+		<div class="some-block-body__text"></div>
+	</div>
+</div>
+
+<!-- ------------ -->
+
+<div class="some-block">
+	<div class="some-block__text"></div>
+	<!-- 
+						НЕ верно записан модификатор! 
+						нет объекта модификации
+						нет ответа на вопросы "какой?", "что изменяет?"
+					-->
+	<a href="" class="some-block_link"></a>
+</div>
+
+<!-- ------------ -->
+
+<div class="block">
+	<div class="block__title">Я заголовок</div>
+	<div class="block__text">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur eveniet accusamus deleniti autem aspernatur
+		aliquam animi debitis error possimus, voluptatibus minima maxime quaerat beatae fuga illum tempora sed porro hic.
+	</div>
+	<div class="block">
+		<div class="block__title">Я заголовок</div>
+		<div class="block__text">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur eveniet accusamus deleniti autem aspernatur
+			aliquam animi debitis error possimus, voluptatibus minima maxime quaerat beatae fuga illum tempora sed porro hic.
+		</div>
+		<div class="block">
+			<div class="block__title">Я заголовок</div>
+			<div class="block__text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur eveniet accusamus deleniti autem aspernatur
+				aliquam animi debitis error possimus, voluptatibus minima maxime quaerat beatae fuga illum tempora sed porro
+				hic.
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<ul class="list">
+	<li class="list__item"></li>
+	<li class="list__item">
+		<ul class="list">
+			<li class="list__item"></li>
+			<li class="list__item"></li>
+			<li class="list__item"></li>
+			<li class="list__item"></li>
+		</ul>
+	</li>
+	<li class="list__item"></li>
+	<li class="list__item"></li>
+</ul>
+
+
+
+<div class="contacts">
+	<div class="page">
+		<div class="page__title">
+			Я заголовок
+		</div>
+		<div class="page__text">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fugiat inventore officiis ipsum cumque? At
+			officia amet voluptatibus? Delectus praesentium accusamus sapiente, magnam laborum distinctio nesciunt numquam
+			molestias odit placeat.
+		</div>
+	</div>
+</div>
+<div class="about">
+	<div class="advantages">
+		<div class="advantages__text">123</div>
+	</div>
+</div>
+			</textarea>
+		</div>
+		<div class="lesson lesson_down" id="lesson9">
+			<h2>Lesson 9 - Позиціонування</h2>
+			<textarea name="" id="" cols="100" rows="125">
+.block {
+	/* По умолчанию */
+	/* position: static; */
+	/*
+	top
+	left 
+	right
+	bottom
+	z-index
+	*/
+}
+.block__item {
+	padding: 15px;
+	color: #fff;
+	font-size: 20px;
+}
+.block__item_color-brown {
+	background-color: #794f45;
+}
+.block__item_color-purple {
+	background-color: #77608d;
+}
+.block__item_color-green {
+	background-color: #7a956b;
+}
+
+/* -------------- */
+
+/* Статичное положение объекта (по умолчанию) */
+/* top,left,right,bottom,z-index - не работают */
+/* position: static; */
+
+/* -------------- */
+
+/*
+Положение элемента устанавливается относительно 
+его исходного положения в коде. 
+Добавление свойств left, top, right и bottom изменяет 
+позицию элемента и сдвигает его в ту или иную сторону 
+от первоначального расположения.
+*/
+/* top,left,right,bottom,z-index - работают */
+/* position: relative; */
+
+/* -------------- */
+/*
+Элемент якобы вырывается из кода и зависайт в воздухе. 
+Он перестает влиять на остальные элементы. 
+Добавление свойств left, top, right и bottom 
+изменяет позицию элемента и сдвигает его 
+в ту или иную сторону относительно родителя 
+у колого задан параметр position: relative;
+
+1) Объект теряет свое "тело", и зависает в воздухе.
+2) Другие объекты занимают его место
+3) Объект превращается в строчный, тоесть 
+размер зависит от контента в нем
+4) Объект позиционируется обносительно первого родителя,
+для которого указано position: relative;
+5) Необходимо сопровождать свойствами top,left,right,bottom
+
+*/
+/* top,left,right,bottom,z-index - работают */
+/* position: absolute; */
+
+/* -------------- */
+
+/*
+Элемент якобы вырывается из кода и зависайт в воздухе. 
+Фиксируется, то есть не скролится вместе с содержимым. 
+Он перестает влиять на остальные элементы. 
+Добавление свойств left, top, right и bottom изменяет позицию элемента 
+и сдвигает его в ту или иную сторону относительно окна браузера.
+*/
+
+/*
+1) Объект теряет свое "тело", и зависает в воздухе.
+2) Другие объекты занимают его место
+3) Объект превращается в строчный, тоесть 
+размер зависит от контента в нем
+4) Объект позиционируется обносительно окна браузера
+5) Необходимо сопровождать свойствами top,left,right,bottom
+
+*/
+
+/* top,left,right,bottom,z-index - работают */
+/* position: fixed; */
+
+/* -------------- */
+
+/*
+Это гибридное сочетание значений static и fixed. 
+Изначально єлемент ведет себя как static 
+но после того как скролл доходит до его границы он становиться 
+fixed и прилипает к указанной позиции top или bottom.
+*/
+
+/* top,left,right,bottom,z-index - работают */
+/* position: sticky; */
+
+/* -------------- */
+
+/*
+Каждый элемент может находиться как ниже, 
+так и выше других объектов веб-страницы, 
+их размещением по z-оси и управляет z-index. 
+Это свойство работает только для элементов, 
+у которых значение position отличное от static.
+*/
+
+/* z-index: auto; */
+
+/* -------------- */
+/*
+ Свойства позиционирования,
+можно указавать px, %, другие ед.
+top
+left
+right
+bottom
+*/
+
+/* -------------- */
+
+			</textarea>
+			<div class="link-lesson9">
+				<a href="https://fls.guru/cssposition.html" target="_blank">Шпаргалка по позиціонуванню</a>
+			</div>
+		</div>
+		<div class="lesson lesson_down" id="lesson10">
+			<h2> Lesson 10 - Transform</h2>
+			<textarea name="" id="" cols="100" rows="110">
+
+/* Селекторы атрибутов */
+
+/* Конкретый поиск */
+[href="https://google.com"]
+{
+	/* color: red; */
+}
+/* Поиск окончания */
+[href$=".com"] {
+	/* color: red; */
+}
+/* Поиск начала */
+[href^="http"] {
+	/* color: red; */
+}
+/* Поиск слова из указанных через пробелы */
+[class~="body-about"] {
+	/* color: red; */
+}
+/* Поиск слова из указанных через дефис */
+[class|="body-about"] {
+	/* color: red; */
+}
+/* Поиск по любому вхождению */
+[href*=":"] {
+	/* color: red; */
+}
+/* Ограничивающий контейнер */
+[class*="__container"] {
+	max-width: 800px;
+	margin: 0px auto;
+}
+
+/* ------------------------------ */
+
+.block {
+	/* width: 100%; */
+	width: 200px;
+	height: 200px;
+	background-color: rgba(255, 255, 255, 0.1);
+	position: relative;
+
+	/* Установка глубины и смена точки начала координат. */
+	/* 
+	perspective: 400px;
+	perspective-origin: 0 0;
+	 */
+
+	/* Определяет, как дочерние элементы должны 
+	 отображаться в 3D-пространстве. */
+	/* transform-style: flat;
+		transform-style: preserve-3d;
+	*/
+}
+
+/* 
+С помощью 2D и 3D трансформации мы сможем сдвигать, 
+поворачивать, масштабировать элементы и делать многое другое!
+*/
+
+.block__item {
+	background-color: #7a956b;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+
+	/* 
+	Сдвигает элемент на новое место, перемещая относительно 
+	изначального положения объекта вправо и вниз, 
+	используя координаты X и Y. 
+	Записывается следующим образом translate (x,y).
+	*/
+	/* transform: translate(0%, 0%); */
+
+	/*
+	Масштабирует элементы, делая их больше или меньше.
+	*/
+	/* transform: scale(1, 0.5); */
+
+	/* Поворачивает элементы. */
+	/* transform: rotate(45deg); */
+
+	/* Деформирует (наклоняет) элементы. */
+	/* transform: skew(-5deg, 60deg); */
+
+	/* Позволяет объединить несколько функций 2D-трансформаций в одной. */
+	/* transform: translate(10%, 10%) scale(0.5) rotate(45deg); */
+
+	/* 
+	Позволяет сместить центр трансформации, относительно которого 
+	происходит изменение положения/размера/формы элемента.
+	*/
+	/* transform-origin: 0px 0px; */
+
+	/* Отображение обратной стороны объекта. */
+	/* backface-visibility: hidden; */
+}
+			</textarea>
+			<div class="link-lesson10">
+				<a href="https://fls.guru/transform.html" target="_blank">Шпаргалка по Transform</a>
+			</div>
+		</div>
+		<div class="lesson lesson_down" id="lesson11">
+			<h2>Lesson 11 - Transitions - Переходи</h2>
+			<textarea name="" id="" cols="100" rows="185">
+/*
+CSS – переходы либо CSS – transitions могут применяться ко всем элементам и даже к псевдоэлементам. Используются для оживления нашей верстки. Что в свою очередь приводит к улучшению взаимодействия с пользователем, как правило путем приятной анимированной реакции на его действия. Например – наведение и нажатие на кнопку. Также свойства transition можно использовать для построения несложных сценариев анимации. Фактически, CSS – переходы обеспечивают смену значений других свойств с определенной анимацей и сценарием. Всю эту магию можно описать универсальным CSS свойcтвом transition, либо рядом следующих отдельных свойств: 
+*/
+
+.link {
+	color: yellow;
+	font-size: 14px;
+}
+.link:hover {
+	color: red;
+	font-size: 20px;
+}
+.link_anim {
+	/*
+	Определяет промежуток времени, в течение которого должен осуществляться переход. Собственно – тут мы указываем время за которое одно значение свойства по переходит (анимируется) в другое. Свойство не наследуется.
+	*/
+	/* transition-duration: 0.2s; */
+	/*
+	Содержит название CSS-свойств, к которым будет применен эффект перехода. Значение свойства может содержать как одно свойство, так и список свойств через запятую. Свойство не наследуется.	
+	*/
+	/* transition-property: all; */
+	/*
+	Задержка выполнения перехода. Позволяет сделать так, чтобы изменение свойства происходило не моментально, а с некоторой задержкой. Время задержки перехода указывается в секундах или миллисекундах. Свойство не наследуется.
+	*/
+	/* transition-delay: 0s; */
+	/*
+	Задаёт стиль нашего перехода, то есть некий сценарий, по которому будет осуществятся анимация.
+	*/
+	/*
+	Переход начинается медленно, разгоняется быстро и замедляется в конце. 
+	*/
+	/* transition-timing-function: ease; */
+
+	/* Универсальное свойство */
+	/* transition: 0.3s; */
+	/* 
+	Порядок значений:
+	property duration timing-function delay 
+	*/
+}
+/*
+.button {
+	display: inline-block;
+	color: #fff;
+	background-color: green;
+	border-radius: 10px;
+	padding: 10px 15px;
+	box-shadow: 0 5px 0px rgba(0, 0, 0, 0.3);
+	transition: all 0.3s ease 0s;
+}
+.button:hover {
+	transform: translate(0px, 3px);
+	box-shadow: 0 2px 0px rgba(0, 0, 0, 0.3);
+}
+*/
+/*
+.menu {
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+.menu:hover .menu__list {
+	transform: translateX(0);
+	transition-delay: 0s;
+}
+
+.menu:hover .menu__item {
+	transform: translateX(0);
+}
+
+.menu__list {
+	background-color: green;
+	padding: 15px;
+	transform: translateX(-100%);
+	transition: 0.3s;
+	transition-delay: 0.8s;
+}
+.menu__item {
+	transform: translateX(-100%);
+	transition-duration: 0.6s;
+}
+.menu__item:nth-child(1) {
+	transition-delay: 0s;
+}
+.menu__item:nth-child(2) {
+	transition-delay: 0.2s;
+}
+.menu__item:nth-child(3) {
+	transition-delay: 0.4s;
+}
+.menu__item:nth-child(4) {
+	transition-delay: 0.6s;
+}
+.menu__item:not(:last-child) {
+	margin: 0px 0px 10px 0px;
+}
+.menu__link {
+	color: #fff;
+}
+*/
+
+/* ================================================================== */
+
+/*
+Как и CSS свойство плавных переходов transition, о котором мы говорили в предыдущем уроке, свойство animation призвано сделать нашу верстку более динамичной, оживить её для лучшего взаимодействия с пользователем и создания WOW эффекта.
+
+Но в отличие от CSS переходов, создание анимации базируется на ключевых кадрах @keyframes, которые позволяют автоматически воспроизводить и повторять эффекты на протяжении заданного времени, а также приостанавливать анимацию по определенному событию.
+
+Другими словами, использование конструкции animation и @keyframes позволяет нам создавать более сложные сценарии анимаций.
+*/
+
+.block {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	background-color: #7a956b;
+
+	/*
+	Определяет список применяемых к элементу анимаций (ключевых кадров). Можно указать через запятую. Причем приоритет у последней записи.
+	*/
+	animation-name: somename;
+	/*
+	Отвечает за продолжительность анимации.
+	*/
+	animation-duration: 1s;
+	/*
+	Задаёт сценарий развития анимации между ключевыми кадрами.
+	*/
+	animation-timing-function: linear;
+	/*
+	Отвечает за задержку перед проигрыванием.
+	*/
+	animation-delay: 0s;
+	/*
+	Отвечает за повтор проигрывания ключевых кадров.
+	*/
+	animation-iteration-count: 1;
+	/*
+	Определяет направление и тип проигрывания ключевых кадров.
+	*/
+	animation-direction: alternate;
+	/*
+	Определяет какие значения анимируемых css свойств применятся к объекту после завершения анимации.
+	*/
+	animation-fill-mode: none;
+	/*
+	Позволяет запускать или останавливать анимацию по событию.
+	*/
+	animation-play-state: running;
+}
+.block:hover {
+	animation-play-state: paused;
+}
+@keyframes somename {
+	0% {
+		/* css свойства */
+		transform: translate(0px, 0px);
+	}
+	50% {
+		background-color: #77608d;
+		border-radius: 50%;
+	}
+	100% {
+		/* css свойства */
+		transform: translate(300px, 0px);
+	}
+}
+			</textarea>
+			<div class="linl-lesson11">
+				<a href="https://fls.guru/csstransition.html" target="_blank">Шпаргалка по переходам</a>
+				<a href="https://fls.guru/cssanimation.html" target="_blank">Шпаргалка по анімації</a>
+			</div>
+		</div>
+		<div class="lesson lesson_down" id="lesson12">
+			<h2>Lesson 12 - Flex</h2>
+			<textarea name="" id="" cols="100" rows="30">
+				HTML 
+
+<!-- Флекс-контейнер -->
+<div class="main__block block">
+<!-- Флекс-элемент -->
+<div class="block__element">
+<!-- Контент внутри флекс-элемента  -->
+1
+</div>
+<!-- Флекс-элемент -->
+<div class="block__element">
+<!-- Контент внутри флекс-элемента  -->
+Я №2, <br> я выше всех
+</div>
+<!-- Флекс-элемент -->
+<div class="block__element">
+<!-- Контент внутри флекс-элемента  -->
+3
+</div>
+</div>
+			</textarea>
+			<textarea name="" id="" cols="100" rows="115">
+				CSS
+				/*
+Flexbox - это целый модуль, содержащий в себе набор свойств и их значений как для родителя flex-контейнера так и для его дочерних элементов flex-элементов. Основным преимуществом гибкой FLEX разметки является возможность изменять ширину/высоту пространство вокруг и порядок flex-элементов, для того чтобы наилучшим образом заполнить доступное пространство flex-контейнера. 
+*/
+
+.main__block {
+	margin: 0 -10px;
+}
+/* Флекс-контейнер */
+.block {
+	/* height: 600px; */
+
+	/* Включение флекс-модуля */
+	display: flex;
+
+	/* Определяет смогут ли flex-элементы перемещаться на следующие строки когда перестают помещаться внутри flex-контейнера. */
+	/* flex-wrap: wrap; */
+
+	/*
+	Определяет выравнивание вдоль основной оси (направление зависит от значения свойства flex-direction). 
+	*/
+	/* justify-content: flex-start; */
+
+	/*
+	Определяет выравнивание вдоль поперечной оси (направление зависит от значения свойства flex-direction). 
+	*/
+	/* align-items: flex-start; */
+
+	/*
+	Устанавливает основную ось, таким образом определяет направление flex-элементов расположенных в flex-контейнере.
+	*/
+	/* flex-direction: row; */
+
+	/*
+	Определяет выравнивание вдоль поперечной оси, при наличии свободного пространства, и флекс-элементы расположены в 2 и более строки (направление зависит от значения свойства flex-direction). 
+	*/
+	/* align-content: stretch; */
+
+	/*
+	Управляет расстоянием (разрывом) между флекс-элементами
+	*/
+	/* 
+	row-gap - между рядами
+	column-gap - между колонками
+	gap: row-gap column-gap
+	 */
+	/* gap: 20px; */
+	row-gap: 20px;
+}
+/* Флекс-элемент */
+.block__element {
+	margin: 0 10px;
+	background-color: #77608d;
+	padding: 20px;
+	font-size: 30px;
+	color: #fff;
+	flex: 0 0 100%;
+}
+
+/*
+Управляет порядком, в котором располагаются flex-элементы внутри flex-контейнера.
+*/
+
+.block__element:nth-child(1) {
+	order: 0;
+}
+.block__element:nth-child(2) {
+	order: 1;
+}
+.block__element:nth-child(3) {
+	order: 2;
+}
+.block__element:nth-child(4) {
+	order: 3;
+}
+
+.block__element_first {
+	/*
+	Переопределяет для конкретного flex-элемента выравнивание вдоль поперечной оси (направление зависит от значения свойства flex-direction).
+	*/
+	/* align-self: center; */
+
+	/*
+	Определяет размер элемента по умолчанию, до распределения оставшегося пространства. Значения могут быть в процентах пикселях и т.д.
+	*/
+	/* flex-basis: auto; */
+	/* flex-basis: auto; */
+
+	/*
+	Определяет возможность элемента увеличиваться в размере, при необходимости заполняя весь flex-контейнер. 0 запрещено. 1 разрешено. 
+	*/
+	/* flex-grow: 0; */
+	/*
+	Определяет возможность элемента уменьшаться в размере, при необходимости заполняя весь flex-контейер. 0 запрещено. 1 разрешено.
+	*/
+	/* flex-shrink: 1; */
+
+	/*
+	Определяет возможность элемента уменьшаться и увеличиваться в размере, при необходимости заполняя весь flex-контейнер (0 запрещено. 1 разрешено). А так же задаёт базовый размер. 
+	*/
+}
+
+			</textarea>
+			<div class="link">
+				<a href="https://fls.guru/flexbox.html" target="_blank">Шпаргалка по FLEXBOX</a>
+			</div>
+		</div>
+
+	</div>
+	<br><br><br><br><br>
+
+</main>
+<footer></footer>
+
+<body>
+
+</body>
+
+</html>
